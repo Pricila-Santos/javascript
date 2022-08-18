@@ -1,4 +1,5 @@
-var agora = new Date() // para pegar hora do sistema atual
+var agora = new Date() // para 
+//pegar hora do sistema atual
 var hora = agora.getHours()
 console.log(`Agora são exatamente ${hora} horas.`)
 if (hora <12) {
