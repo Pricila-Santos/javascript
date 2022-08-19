@@ -19,7 +19,13 @@ section {
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
 }
-
+div {
+    text-align: center;
+    padding: 8px;
+}
+img {
+    width: 350px;
+}
 
 
 footer {
