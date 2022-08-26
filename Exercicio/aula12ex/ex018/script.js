@@ -9,8 +9,8 @@ function isNumero(n){
     } else {
         return false
     }
-
 }
+
 function inLista(n,l) {
     if (l.indexOf(Number(n)) != -1) {
         return true
