@@ -1,5 +1,4 @@
 function converter() {
-    let bt =document.getElementById('converter')
     let saida = document.getElementById('saida')
     let m =Number(window.prompt('Digite a distancia em metros'))
     let km =Number(m/1000)
@@ -18,3 +17,5 @@ function converter() {
                            <p>${mm} Milímetro (mm)</p>         `)
     
 }
+
+

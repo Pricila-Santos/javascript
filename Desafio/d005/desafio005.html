@@ -14,7 +14,7 @@
         input {
             font-weight: bold;
             font-size: 1.5em;
-            background-color: black;
+            background-color: rgba(0, 0, 0, 0.701);
             color:rgba(220, 20, 60, 0.718) ;
             padding: 10px;
         }
@@ -26,14 +26,16 @@
     <header>
         <h1>Conversor de medidas</h1>
     </header>
-    <div>
+    <div id="saida">
         <input type="button" value="Converter" onclick="converter()">
-        <p>Clique no potão acima para iniciar.</p>
+        <strong>
+            <p>Clique no botão acima para iniciar.</p>
+        </strong>
 
     </div>
 
 
-    <div id="saida">
+    <div>
 
     </div>
     <script src="acoes.js"></script>
