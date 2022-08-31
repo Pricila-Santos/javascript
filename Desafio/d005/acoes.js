@@ -9,12 +9,12 @@ function converter() {
     let mm =Number(m*1000)
 
     saida.innerHTML = (`<h1>A distancia de ${m} metros,corresponde a ...</h1>
-                           <p>${km} quilometros (km)</p>
-                           <p>${hm} hectometro (hm)</p>
-                           <p>${dam} Decâmetro (dam)</p>
-                           <p>${dm} Decímentro (dm)</p>
-                           <p>${cm} Centímetro (cm)</p>
-                           <p>${mm} Milímetro (mm)</p>         `)
+                           <p>${km} quilometros(km)</p>
+                           <p>${hm} hectometros(hm)</p>
+                           <p>${dam} Decâmetros(dam)</p>
+                           <p>${dm} Decímentros(dm)</p>
+                           <p>${cm} Centímetros(cm)</p>
+                           <p>${mm} Milímetros(mm)</p>         `)
     
 }
 
